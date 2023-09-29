@@ -20,10 +20,12 @@ def division(a, b):
 # Función principal de la calculadora
 def calculadora():
     print("Selecciona una operación:")
-    print("1. Suma")
+    #print("1. Suma")
     print("2. Resta")
     print("3. Multiplicación")
     print("4. División")
+    print("5. Esta es una línea de prueba para la opción salir")
+    print("6. Otra prueba")
 
     # Solicitar al usuario que seleccione una operación
     opcion = input("Ingresa el número de la operación que deseas realizar: ")
